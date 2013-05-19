@@ -18,10 +18,13 @@
     // Override point for customization after application launch.
     //instance of the ViewController in question
 
-    QCTextFieldViewController *textFieldViewController = [[QCTextFieldViewController alloc] initWithNibName:nil bundle:nil];
     
+    QCBarButtonItemViewController *barButtonItemViewController = [[QCBarButtonItemViewController alloc] initWithNibName:nil bundle:nil];
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:barButtonItemViewController];
+
     //set my instance equal to self.window.rootViewController
-    self.window.rootViewController = textFieldViewController;
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     return YES;
 }
