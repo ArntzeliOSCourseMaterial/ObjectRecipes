@@ -26,10 +26,10 @@
 		6F96BC6B17494F540066F2C6 /* QCTextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F96BC6917494F540066F2C6 /* QCTextFieldViewController.xib */; };
 		6FEC9A2A1749814E0085A3E2 /* QCBarButtonItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEC9A281749814E0085A3E2 /* QCBarButtonItemViewController.m */; };
 		6FEC9A2B1749814E0085A3E2 /* QCBarButtonItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FEC9A291749814E0085A3E2 /* QCBarButtonItemViewController.xib */; };
-		6FEC9A8A1750F06A0085A3E2 /* QCTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEC9A881750F06A0085A3E2 /* QCTableViewViewController.m */; };
-		6FEC9A8B1750F06A0085A3E2 /* QCTableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FEC9A891750F06A0085A3E2 /* QCTableViewViewController.xib */; };
 		6FEC9A90175105700085A3E2 /* QCTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEC9A8E175105700085A3E2 /* QCTestViewController.m */; };
 		6FEC9A91175105700085A3E2 /* QCTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FEC9A8F175105700085A3E2 /* QCTestViewController.xib */; };
+		6FEC9AC917511D7E0085A3E2 /* QCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEC9AC717511D7E0085A3E2 /* QCTableViewController.m */; };
+		6FEC9ACA17511D7E0085A3E2 /* QCTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FEC9AC817511D7E0085A3E2 /* QCTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,12 +61,12 @@
 		6FEC9A271749814E0085A3E2 /* QCBarButtonItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCBarButtonItemViewController.h; sourceTree = "<group>"; };
 		6FEC9A281749814E0085A3E2 /* QCBarButtonItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCBarButtonItemViewController.m; sourceTree = "<group>"; };
 		6FEC9A291749814E0085A3E2 /* QCBarButtonItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCBarButtonItemViewController.xib; sourceTree = "<group>"; };
-		6FEC9A871750F06A0085A3E2 /* QCTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCTableViewViewController.h; sourceTree = "<group>"; };
-		6FEC9A881750F06A0085A3E2 /* QCTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCTableViewViewController.m; sourceTree = "<group>"; };
-		6FEC9A891750F06A0085A3E2 /* QCTableViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCTableViewViewController.xib; sourceTree = "<group>"; };
 		6FEC9A8D175105700085A3E2 /* QCTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCTestViewController.h; sourceTree = "<group>"; };
 		6FEC9A8E175105700085A3E2 /* QCTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCTestViewController.m; sourceTree = "<group>"; };
 		6FEC9A8F175105700085A3E2 /* QCTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCTestViewController.xib; sourceTree = "<group>"; };
+		6FEC9AC617511D7E0085A3E2 /* QCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCTableViewController.h; sourceTree = "<group>"; };
+		6FEC9AC717511D7E0085A3E2 /* QCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCTableViewController.m; sourceTree = "<group>"; };
+		6FEC9AC817511D7E0085A3E2 /* QCTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,9 +194,9 @@
 		6FEC9A861750F04E0085A3E2 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				6FEC9A871750F06A0085A3E2 /* QCTableViewViewController.h */,
-				6FEC9A881750F06A0085A3E2 /* QCTableViewViewController.m */,
-				6FEC9A891750F06A0085A3E2 /* QCTableViewViewController.xib */,
+				6FEC9AC617511D7E0085A3E2 /* QCTableViewController.h */,
+				6FEC9AC717511D7E0085A3E2 /* QCTableViewController.m */,
+				6FEC9AC817511D7E0085A3E2 /* QCTableViewController.xib */,
 			);
 			name = TableView;
 			sourceTree = "<group>";
@@ -272,8 +272,8 @@
 				6F96BC6517494A910066F2C6 /* QCButtonViewController.xib in Resources */,
 				6F96BC6B17494F540066F2C6 /* QCTextFieldViewController.xib in Resources */,
 				6FEC9A2B1749814E0085A3E2 /* QCBarButtonItemViewController.xib in Resources */,
-				6FEC9A8B1750F06A0085A3E2 /* QCTableViewViewController.xib in Resources */,
 				6FEC9A91175105700085A3E2 /* QCTestViewController.xib in Resources */,
+				6FEC9ACA17511D7E0085A3E2 /* QCTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +291,8 @@
 				6F96BC6417494A910066F2C6 /* QCButtonViewController.m in Sources */,
 				6F96BC6A17494F540066F2C6 /* QCTextFieldViewController.m in Sources */,
 				6FEC9A2A1749814E0085A3E2 /* QCBarButtonItemViewController.m in Sources */,
-				6FEC9A8A1750F06A0085A3E2 /* QCTableViewViewController.m in Sources */,
 				6FEC9A90175105700085A3E2 /* QCTestViewController.m in Sources */,
+				6FEC9AC917511D7E0085A3E2 /* QCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

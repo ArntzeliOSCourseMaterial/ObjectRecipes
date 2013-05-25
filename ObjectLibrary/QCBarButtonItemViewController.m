@@ -28,8 +28,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Press me" style:UIBarButtonItemStyleBordered target:self action:@selector(barButtonItemPressed:)];
-    self.navigationItem.rightBarButtonItem = barButtonItem;
+//    UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Press me" style:UIBar
+//        ButtonItemStyleBordered target:self action:@selector(barButtonItemPressed:)];
+//    self.navigationItem.rightBarButtonItem = barButtonItem;
 }
 
 - (void)didReceiveMemoryWarning

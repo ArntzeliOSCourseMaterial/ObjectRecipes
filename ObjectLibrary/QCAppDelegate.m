@@ -18,9 +18,9 @@
     // Override point for customization after application launch.
     //instance of the ViewController in question
 
-    QCBarButtonItemViewController *barButtonItemViewController = [[QCBarButtonItemViewController alloc] initWithNibName:nil bundle:nil];
+    QCTableViewController *tableViewController = [[QCTableViewController alloc] initWithNibName:nil bundle:nil];
     
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:barButtonItemViewController];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:tableViewController];
 
     //set my instance equal to self.window.rootViewController
     self.window.rootViewController = navController;

@@ -1,5 +1,5 @@
 //
-//  QCTableViewViewController.h
+//  QCTableViewController.h
 //  ObjectLibrary
 //
 //  Created by Eliot Arntz on 5/25/13.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QCTableViewViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
+@interface QCTableViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
-@property (strong, nonatomic) NSArray *items;
+@property (strong, nonatomic) NSArray *names;
+
 @end

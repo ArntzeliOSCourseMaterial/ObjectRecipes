@@ -11,7 +11,7 @@
 #import "QCButtonViewController.h"
 #import "QCTextFieldViewController.h"
 #import "QCBarButtonItemViewController.h"
-#import "QCTableViewViewController.h"
+#import "QCTableViewController.h"
 
 @class QCViewController;
 
