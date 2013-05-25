@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.mainButton.backgroundColor = [UIColor redColor];
+    self.mainButton.frame = CGRectMake(30, 50, 100, 30);
     
 }
 
@@ -42,4 +44,5 @@
     
     [self.mainButton setTitle:@"hit button" forState:UIControlStateNormal];
 }
+
 @end

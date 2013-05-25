@@ -18,7 +18,6 @@
     // Override point for customization after application launch.
     //instance of the ViewController in question
 
-    
     QCBarButtonItemViewController *barButtonItemViewController = [[QCBarButtonItemViewController alloc] initWithNibName:nil bundle:nil];
     
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:barButtonItemViewController];

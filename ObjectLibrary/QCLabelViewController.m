@@ -26,8 +26,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // editing the UILabel Text
     self.titleLabel.text = @"Hello class";
+    self.titleLabel.textColor = [UIColor redColor];
+    
 }
 
 - (void)didReceiveMemoryWarning
