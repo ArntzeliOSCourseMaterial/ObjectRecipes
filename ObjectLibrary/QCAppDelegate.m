@@ -18,7 +18,7 @@
     // Override point for customization after application launch.
     //instance of the ViewController in question
 
-    QCTableViewController *tableViewController = [[QCTableViewController alloc] initWithNibName:nil bundle:nil];
+    QCTableViewCellViewController *tableViewController = [[QCTableViewCellViewController alloc] initWithNibName:nil bundle:nil];
     
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:tableViewController];
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F9171C41762F5D8009169EF /* QCTableViewCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9171C21762F5D8009169EF /* QCTableViewCellViewController.m */; };
+		6F9171C51762F5D8009169EF /* QCTableViewCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9171C31762F5D8009169EF /* QCTableViewCellViewController.xib */; };
+		6F9171C91762F643009169EF /* QCCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9171C81762F643009169EF /* QCCustomCell.m */; };
+		6F9171CB1762F75E009169EF /* QCCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9171CA1762F75E009169EF /* QCCustomCell.xib */; };
 		6F96BC371749430C0066F2C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F96BC361749430C0066F2C6 /* UIKit.framework */; };
 		6F96BC391749430C0066F2C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F96BC381749430C0066F2C6 /* Foundation.framework */; };
 		6F96BC3B1749430C0066F2C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F96BC3A1749430C0066F2C6 /* CoreGraphics.framework */; };
@@ -33,6 +37,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F9171C11762F5D8009169EF /* QCTableViewCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCTableViewCellViewController.h; sourceTree = "<group>"; };
+		6F9171C21762F5D8009169EF /* QCTableViewCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCTableViewCellViewController.m; sourceTree = "<group>"; };
+		6F9171C31762F5D8009169EF /* QCTableViewCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCTableViewCellViewController.xib; sourceTree = "<group>"; };
+		6F9171C71762F643009169EF /* QCCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCCustomCell.h; sourceTree = "<group>"; };
+		6F9171C81762F643009169EF /* QCCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCCustomCell.m; sourceTree = "<group>"; };
+		6F9171CA1762F75E009169EF /* QCCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCCustomCell.xib; sourceTree = "<group>"; };
 		6F96BC331749430C0066F2C6 /* ObjectLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F96BC361749430C0066F2C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6F96BC381749430C0066F2C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +93,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F9171B61762F535009169EF /* Custom UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6F9171C11762F5D8009169EF /* QCTableViewCellViewController.h */,
+				6F9171C21762F5D8009169EF /* QCTableViewCellViewController.m */,
+				6F9171C31762F5D8009169EF /* QCTableViewCellViewController.xib */,
+				6F9171C61762F628009169EF /* CustomCell */,
+			);
+			name = "Custom UITableViewCell";
+			sourceTree = "<group>";
+		};
+		6F9171C61762F628009169EF /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				6F9171C71762F643009169EF /* QCCustomCell.h */,
+				6F9171C81762F643009169EF /* QCCustomCell.m */,
+				6F9171CA1762F75E009169EF /* QCCustomCell.xib */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
 		6F96BC2A1749430C0066F2C6 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +150,7 @@
 				6F96BC6617494F170066F2C6 /* TextField */,
 				6FEC9A26174981200085A3E2 /* BarButtonItem */,
 				6FEC9A861750F04E0085A3E2 /* TableView */,
+				6F9171B61762F535009169EF /* Custom UITableViewCell */,
 				6F96BC3D1749430C0066F2C6 /* Supporting Files */,
 			);
 			path = ObjectLibrary;
@@ -274,6 +306,8 @@
 				6FEC9A2B1749814E0085A3E2 /* QCBarButtonItemViewController.xib in Resources */,
 				6FEC9A91175105700085A3E2 /* QCTestViewController.xib in Resources */,
 				6FEC9ACA17511D7E0085A3E2 /* QCTableViewController.xib in Resources */,
+				6F9171C51762F5D8009169EF /* QCTableViewCellViewController.xib in Resources */,
+				6F9171CB1762F75E009169EF /* QCCustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +327,8 @@
 				6FEC9A2A1749814E0085A3E2 /* QCBarButtonItemViewController.m in Sources */,
 				6FEC9A90175105700085A3E2 /* QCTestViewController.m in Sources */,
 				6FEC9AC917511D7E0085A3E2 /* QCTableViewController.m in Sources */,
+				6F9171C41762F5D8009169EF /* QCTableViewCellViewController.m in Sources */,
+				6F9171C91762F643009169EF /* QCCustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
