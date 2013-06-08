@@ -32,6 +32,27 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    Song *song = [Song createEntity];
+    NSLog(@"song is %@", song);
+    song.artist = @"Kanye";
+    song.playTime = 60;
+    [[NSManagedObjectContext MR_contextForCurrentThread] MR_saveToPersistentStoreAndWait];
+    
+    song.playTime = 50;
+    NSLog(@"%i", song.playTime);
+    [[NSManagedObjectContext MR_contextForCurrentThread] MR_saveToPersistentStoreAndWait];
+    
+    NSArray *songs = [Song findAll];
+    NSLog(@"number of songs in songs array %i",songs.count);
+    NSLog(@"my songs array %@",songs);
+    
+    [song deleteEntity];
+    [[NSManagedObjectContext MR_contextForCurrentThread] MR_saveToPersistentStoreAndWait];
+
+    NSArray *revisedSongs = [Song findAll];
+    NSLog(@"number of songs in songs array %i",revisedSongs.count);
+    NSLog(@"my songs array %@",revisedSongs);
 }
 
 - (void)didReceiveMemoryWarning

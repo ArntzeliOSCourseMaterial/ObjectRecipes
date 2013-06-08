@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "QCCustomCell.h"
+#import "Song.h"
 
 @interface QCTableViewCellViewController : UITableViewController
 

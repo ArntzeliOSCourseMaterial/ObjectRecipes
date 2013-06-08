@@ -18,6 +18,8 @@
     // Override point for customization after application launch.
     //instance of the ViewController in question
 
+    [MagicalRecord setupAutoMigratingCoreDataStack];
+    
     QCTableViewCellViewController *tableViewController = [[QCTableViewCellViewController alloc] initWithNibName:nil bundle:nil];
     
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:tableViewController];

@@ -12,4 +12,8 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 
+//Universal Import for setting up magical record with core data
+#define MR_SHORTHAND
+#import "CoreData+MagicalRecord.h"
+
 #endif
