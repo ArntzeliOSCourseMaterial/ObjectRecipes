@@ -40,6 +40,17 @@
 		6F91726017637F4B009169EF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F91725E17637F4B009169EF /* Model.xcdatamodeld */; };
 		6F91726517638008009169EF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F91726417638007009169EF /* CoreData.framework */; };
 		6F91726817638145009169EF /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91726717638145009169EF /* Song.m */; };
+		6F917333176C3076009169EF /* QCImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F917331176C3076009169EF /* QCImagePickerViewController.m */; };
+		6F917334176C3076009169EF /* QCImagePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F917332176C3076009169EF /* QCImagePickerViewController.xib */; };
+		6F917339176C3549009169EF /* QCCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F917337176C3549009169EF /* QCCollectionViewController.m */; };
+		6F91733A176C3549009169EF /* QCCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F917338176C3549009169EF /* QCCollectionViewController.xib */; };
+		6F91733E176C3861009169EF /* QCCustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91733D176C3861009169EF /* QCCustomCollectionViewCell.m */; };
+		6F917340176C3875009169EF /* QCCustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F91733F176C3875009169EF /* QCCustomCollectionViewCell.xib */; };
+		6F917342176C39BD009169EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F917341176C39BC009169EF /* QuartzCore.framework */; };
+		6F917344176C3AD2009169EF /* testImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F917343176C3AD2009169EF /* testImage.jpg */; };
+		6F917349176C3ECC009169EF /* QCUITapGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F917347176C3ECC009169EF /* QCUITapGestureRecognizerViewController.m */; };
+		6F91734A176C3ECC009169EF /* QCUITapGestureRecognizerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F917348176C3ECC009169EF /* QCUITapGestureRecognizerViewController.xib */; };
+		6F9173A9176CB38B009169EF /* coolImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6F9173A8176CB38B009169EF /* coolImage.jpeg */; };
 		6F96BC371749430C0066F2C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F96BC361749430C0066F2C6 /* UIKit.framework */; };
 		6F96BC391749430C0066F2C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F96BC381749430C0066F2C6 /* Foundation.framework */; };
 		6F96BC3B1749430C0066F2C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F96BC3A1749430C0066F2C6 /* CoreGraphics.framework */; };
@@ -130,6 +141,21 @@
 		6F91726417638007009169EF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6F91726617638145009169EF /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
 		6F91726717638145009169EF /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		6F917330176C3076009169EF /* QCImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCImagePickerViewController.h; sourceTree = "<group>"; };
+		6F917331176C3076009169EF /* QCImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCImagePickerViewController.m; sourceTree = "<group>"; };
+		6F917332176C3076009169EF /* QCImagePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCImagePickerViewController.xib; sourceTree = "<group>"; };
+		6F917336176C3549009169EF /* QCCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCCollectionViewController.h; sourceTree = "<group>"; };
+		6F917337176C3549009169EF /* QCCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCCollectionViewController.m; sourceTree = "<group>"; };
+		6F917338176C3549009169EF /* QCCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCCollectionViewController.xib; sourceTree = "<group>"; };
+		6F91733C176C3861009169EF /* QCCustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCCustomCollectionViewCell.h; sourceTree = "<group>"; };
+		6F91733D176C3861009169EF /* QCCustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCCustomCollectionViewCell.m; sourceTree = "<group>"; };
+		6F91733F176C3875009169EF /* QCCustomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCCustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		6F917341176C39BC009169EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6F917343176C3AD2009169EF /* testImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImage.jpg; sourceTree = "<group>"; };
+		6F917346176C3ECC009169EF /* QCUITapGestureRecognizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCUITapGestureRecognizerViewController.h; sourceTree = "<group>"; };
+		6F917347176C3ECC009169EF /* QCUITapGestureRecognizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCUITapGestureRecognizerViewController.m; sourceTree = "<group>"; };
+		6F917348176C3ECC009169EF /* QCUITapGestureRecognizerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCUITapGestureRecognizerViewController.xib; sourceTree = "<group>"; };
+		6F9173A8176CB38B009169EF /* coolImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coolImage.jpeg; sourceTree = "<group>"; };
 		6F96BC331749430C0066F2C6 /* ObjectLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F96BC361749430C0066F2C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6F96BC381749430C0066F2C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -171,6 +197,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F917342176C39BD009169EF /* QuartzCore.framework in Frameworks */,
 				6F91726517638008009169EF /* CoreData.framework in Frameworks */,
 				6F96BC371749430C0066F2C6 /* UIKit.framework in Frameworks */,
 				6F96BC391749430C0066F2C6 /* Foundation.framework in Frameworks */,
@@ -314,6 +341,47 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		6F91732F176C3058009169EF /* UIImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6F917330176C3076009169EF /* QCImagePickerViewController.h */,
+				6F917331176C3076009169EF /* QCImagePickerViewController.m */,
+				6F917332176C3076009169EF /* QCImagePickerViewController.xib */,
+			);
+			name = UIImagePicker;
+			sourceTree = "<group>";
+		};
+		6F917335176C3529009169EF /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				6F917336176C3549009169EF /* QCCollectionViewController.h */,
+				6F917337176C3549009169EF /* QCCollectionViewController.m */,
+				6F917338176C3549009169EF /* QCCollectionViewController.xib */,
+				6F91733B176C383D009169EF /* CustomCollectionViewCell */,
+			);
+			name = UICollectionView;
+			sourceTree = "<group>";
+		};
+		6F91733B176C383D009169EF /* CustomCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6F91733C176C3861009169EF /* QCCustomCollectionViewCell.h */,
+				6F91733D176C3861009169EF /* QCCustomCollectionViewCell.m */,
+				6F91733F176C3875009169EF /* QCCustomCollectionViewCell.xib */,
+			);
+			name = CustomCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		6F917345176C3EA8009169EF /* UITapGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				6F917346176C3ECC009169EF /* QCUITapGestureRecognizerViewController.h */,
+				6F917347176C3ECC009169EF /* QCUITapGestureRecognizerViewController.m */,
+				6F917348176C3ECC009169EF /* QCUITapGestureRecognizerViewController.xib */,
+			);
+			name = UITapGestureRecognizer;
+			sourceTree = "<group>";
+		};
 		6F96BC2A1749430C0066F2C6 = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +402,7 @@
 		6F96BC351749430C0066F2C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6F917341176C39BC009169EF /* QuartzCore.framework */,
 				6F91726417638007009169EF /* CoreData.framework */,
 				6F96BC361749430C0066F2C6 /* UIKit.framework */,
 				6F96BC381749430C0066F2C6 /* Foundation.framework */,
@@ -352,6 +421,9 @@
 				6FEC9A26174981200085A3E2 /* BarButtonItem */,
 				6FEC9A861750F04E0085A3E2 /* TableView */,
 				6F9171B61762F535009169EF /* Custom UITableViewCell */,
+				6F91732F176C3058009169EF /* UIImagePicker */,
+				6F917335176C3529009169EF /* UICollectionView */,
+				6F917345176C3EA8009169EF /* UITapGestureRecognizer */,
 				6F91720717637DFA009169EF /* MagicalRecord */,
 				6F96BC3D1749430C0066F2C6 /* Supporting Files */,
 			);
@@ -361,6 +433,8 @@
 		6F96BC3D1749430C0066F2C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6F9173A8176CB38B009169EF /* coolImage.jpeg */,
+				6F917343176C3AD2009169EF /* testImage.jpg */,
 				6F96BC3E1749430C0066F2C6 /* ObjectLibrary-Info.plist */,
 				6F96BC3F1749430C0066F2C6 /* InfoPlist.strings */,
 				6F96BC421749430C0066F2C6 /* main.m */,
@@ -510,6 +584,12 @@
 				6FEC9ACA17511D7E0085A3E2 /* QCTableViewController.xib in Resources */,
 				6F9171C51762F5D8009169EF /* QCTableViewCellViewController.xib in Resources */,
 				6F9171CB1762F75E009169EF /* QCCustomCell.xib in Resources */,
+				6F917334176C3076009169EF /* QCImagePickerViewController.xib in Resources */,
+				6F91733A176C3549009169EF /* QCCollectionViewController.xib in Resources */,
+				6F917340176C3875009169EF /* QCCustomCollectionViewCell.xib in Resources */,
+				6F917344176C3AD2009169EF /* testImage.jpg in Resources */,
+				6F91734A176C3ECC009169EF /* QCUITapGestureRecognizerViewController.xib in Resources */,
+				6F9173A9176CB38B009169EF /* coolImage.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +639,10 @@
 				6F91725D17637EE9009169EF /* MagicalRecord.m in Sources */,
 				6F91726017637F4B009169EF /* Model.xcdatamodeld in Sources */,
 				6F91726817638145009169EF /* Song.m in Sources */,
+				6F917333176C3076009169EF /* QCImagePickerViewController.m in Sources */,
+				6F917339176C3549009169EF /* QCCollectionViewController.m in Sources */,
+				6F91733E176C3861009169EF /* QCCustomCollectionViewCell.m in Sources */,
+				6F917349176C3ECC009169EF /* QCUITapGestureRecognizerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

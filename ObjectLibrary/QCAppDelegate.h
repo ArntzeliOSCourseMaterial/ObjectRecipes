@@ -13,6 +13,9 @@
 #import "QCBarButtonItemViewController.h"
 #import "QCTableViewController.h"
 #import "QCTableViewCellViewController.h"
+#import "QCImagePickerViewController.h"
+#import "QCCollectionViewController.h"
+#import "QCUITapGestureRecognizerViewController.h"
 
 @class QCViewController;
 

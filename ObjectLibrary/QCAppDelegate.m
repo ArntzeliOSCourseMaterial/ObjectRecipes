@@ -20,9 +20,9 @@
 
     [MagicalRecord setupAutoMigratingCoreDataStack];
     
-    QCTableViewCellViewController *tableViewController = [[QCTableViewCellViewController alloc] initWithNibName:nil bundle:nil];
+    QCUITapGestureRecognizerViewController *tapGestureRecognizer = [[QCUITapGestureRecognizerViewController alloc] initWithNibName:nil bundle:nil];
     
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:tableViewController];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:tapGestureRecognizer];
 
     //set my instance equal to self.window.rootViewController
     self.window.rootViewController = navController;
